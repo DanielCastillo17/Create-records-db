@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action= "./guardarRegistro.php" method="POST">
+        <label for="nombre">
+            <span>Nombre</span>
+            <input type="text" id="nombre" placeholder="Escribe aca tu nombre">
+        </label>
+        <br>
+        <br>
+        <label for="apellido">
+            <span>Apellido</span>
+            <input type="text" id="apellido" placeholder="Escribe aca tus apellidos">
+        </label>
+        <br>
+        <br>
+        <label for="edad">
+            <span>Edad</span>
+            <input type="text" id="edad" placeholder="Escribe aca tu edad">
+        </label>
+        <br>
+        <br>
+        <label for="codigo">
+            <span>Codigo</span>
+            <input type="text" id="codigo" placeholder="Escribe aca tu codigo">
+        </label>
+        <br>
+        <br>
+        <span>Materias</span> 
+        <input list="Carrera">
+        <datalist id="Carrera">
+            <option value="Bases de datos"></option>
+            <option value="Microcontroladores"></option>
+            <option value="Matematicas"></option>
+            <option value="Infoetica"></option>
+            <option value="Programacion"></option>
+            <option value="Ingles"></option>
+        </datalist>
+        <br>
+        <br>
+        <span>Semestre</span> 
+        <input list="Semestre">
+        <datalist id="Semestre">
+            <option value="1"></option>
+            <option value="2"></option>
+            <option value="2"></option>
+            <option value="4"></option>
+            <option value="5"></option>
+            <option value="6"></option>
+            <option value="7"></option>
+            <option value="8"></option>
+            <option value="9"></option>
+            <option value="10"></option>
+        </datalist>
+    </form>
+</body>
+</html>
